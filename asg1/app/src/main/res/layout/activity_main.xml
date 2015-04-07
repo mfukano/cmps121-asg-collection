@@ -8,8 +8,8 @@
     android:padding="3dp">
 
     <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_centerHorizontal="true"
         android:stretchColumns="*"
         android:shrinkColumns="1,2,3"
@@ -19,7 +19,8 @@
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:paddingBottom="0dp">
 
             <Button
@@ -62,7 +63,8 @@
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:paddingBottom="0dp">
 
             <Button
@@ -101,7 +103,8 @@
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:paddingBottom="0dp">
 
             <Button
@@ -141,7 +144,8 @@
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:paddingBottom="0dp">
 
             <Button
@@ -180,7 +184,8 @@
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
             android:layout_marginTop="0dp">
 
             <Button
@@ -223,6 +228,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:background="#ffb8b8bc"
-        android:maxLength="12"/>
+        android:maxLength="12"
+        android:gravity="center" />
 
 </RelativeLayout>
