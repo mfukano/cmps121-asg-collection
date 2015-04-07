@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -20,20 +20,21 @@ public class MainActivity extends ActionBarActivity {
     public void clickButton(View v) {
         Button b = (Button) v;
         String t = b.getText().toString();
-        TextView tv = (TextView) findViewById(R.id.textView);
-        tv.setText(t);
+        EditText tv = (EditText) findViewById(R.id.editText);
+        String out = tv.getText().toString();
+        out += t;
+        tv.setText(out);
     }
 
     public void delNumber(View v) {
-        Button b = (Button) v;
-        String t = b.getText().toString();
-        t = t.substring(0, t.length()-1);
-        TextView tv = (TextView) findViewById(R.id.textView);
-        tv.setText(t);
+        EditText tv = (EditText) findViewById(R.id.editText);
+        String out = tv.getText().toString();
+        out = out.substring(0, out.length()-1);
+        tv.setText(out);
     }
 
     public void clrNumber(View v) {
-        TextView tv = (TextView) findViewById(R.id.textView);
+        EditText tv = (EditText) findViewById(R.id.editText);
         tv.setText("");
     }
 
