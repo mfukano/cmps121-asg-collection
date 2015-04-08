@@ -221,14 +221,16 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:textSize="26sp"
-        android:inputType="none"
+        android:inputType="number"
         android:ems="10"
+        android:cursorVisible="false"
         android:id="@+id/editText"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:background="#ffb8b8bc"
         android:maxLength="12"
-        android:gravity="center" />
+        android:gravity="center"
+        android:phoneNumber="true" />
 
 </RelativeLayout>
