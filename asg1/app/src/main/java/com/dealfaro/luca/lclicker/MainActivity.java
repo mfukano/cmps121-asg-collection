@@ -17,6 +17,14 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /*
+        Code additions created by Mat Fukano - mfukano@ucsc.edu - 4/8/15
+     */
+
+    /*
+        On button press, appends text from button to string from
+        text field and returns the string
+     */
     public void clickButton(View v) {
         Button b = (Button) v;
         String t = b.getText().toString();
@@ -26,6 +34,9 @@ public class MainActivity extends ActionBarActivity {
         tv.setText(out);
     }
 
+    /*
+        Outputs substring of size original_string - 1
+     */
     public void delNumber(View v) {
         EditText tv = (EditText) findViewById(R.id.editText);
         String out = tv.getText().toString();
@@ -33,6 +44,9 @@ public class MainActivity extends ActionBarActivity {
         tv.setText(out);
     }
 
+    /*
+        Clears text field view
+     */
     public void clrNumber(View v) {
         EditText tv = (EditText) findViewById(R.id.editText);
         tv.setText("");
