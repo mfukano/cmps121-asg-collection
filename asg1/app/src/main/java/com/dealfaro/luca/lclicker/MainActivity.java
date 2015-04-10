@@ -39,9 +39,12 @@ public class MainActivity extends ActionBarActivity {
      */
     public void delNumber(View v) {
         EditText tv = (EditText) findViewById(R.id.editText);
-        String out = tv.getText().toString();
-        out = out.substring(0, out.length()-1);
-        tv.setText(out);
+        if (tv.getText() != null){
+            String out = tv.getText().toString();
+            if(out.length() > 0)
+                out = out.substring(0, out.length() - 1);
+            tv.setText(out);
+        }
     }
 
     /*
