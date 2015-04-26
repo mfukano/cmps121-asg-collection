@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/pre-dexed/release/classes-f7ffa904fab8b02ccb2f45df4b13fb9abe2f9c36.jar" />
+    </item>
+    <item
+        jar="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-65d8f7908c75e1bb8bbf340674d1985ee988b8c6.jar" />
+    </item>
+    <item
+        jar="/Users/matfukano/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-4a333eef84abd079986285458a892a9614cb04bb.jar" />
+    </item>
+    <item
+        jar="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/matfukano/Documents/cmps121-asg-collection/asg1/app/build/intermediates/pre-dexed/release/classes-8a602caeb2dea250ddd5222f7f0d45f7370417ed.jar" />
+    </item>
+
+</items>
